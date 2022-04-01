@@ -4,6 +4,7 @@ import { observer } from 'mobx-react'
 import counterStore from '@/store/counter'
 import aag from '@/assets/images/index/aag.png'
 import api from '@/services/api'
+import IconFont from '@/components/iconfont';
 import './index.less'
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
     <Button onClick={increment}>+</Button>
     <Button onClick={decrement}>-</Button>
     <Button onClick={incrementAsync}>Add Async</Button>
+    <IconFont name='danxuan_on'/>
     <Text>{counter}</Text>
     <Image
       src={aag}
