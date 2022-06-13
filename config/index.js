@@ -82,9 +82,6 @@ module.exports = function (merge) {
     case 'production':
       currentConfig = require('./prod')
       break;
-    case 'test':
-      currentConfig = require('./test')
-      break;
   }
   return merge({}, config, currentConfig)
 }

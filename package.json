@@ -24,15 +24,7 @@
     "dev:h5": "npm run build:h5 -- --watch",
     "dev:rn": "npm run build:rn -- --watch",
     "dev:qq": "npm run build:qq -- --watch",
-    "dev:quickapp": "npm run build:quickapp -- --watch",
-    "test:weapp": "NODE_ENV=test npm run build:weapp -- --watch",
-    "test:swan": "NODE_ENV=test npm run build:swan -- --watch",
-    "test:alipay": "NODE_ENV=test npm run build:alipay -- --watch",
-    "test:tt": "NODE_ENV=test npm run build:tt -- --watch",
-    "test:h5": "NODE_ENV=test npm run build:h5 -- --watch",
-    "test:rn": "NODE_ENV=test npm run build:rn -- --watch",
-    "test:qq": "NODE_ENV=test npm run build:qq -- --watch",
-    "test:quickapp": "NODE_ENV=test npm run build:quickapp -- --watch"
+    "dev:quickapp": "npm run build:quickapp -- --watch"
   },
   "browserslist": [
     "last 3 versions",

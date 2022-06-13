@@ -30,6 +30,5 @@
   
   第三步
   npm run dev:weapp 微信小程序-开发模式
-  npm run test:weapp 微信小程序-测试模式
   npm run build:weapp 微信小程序-生产模式
 ```
